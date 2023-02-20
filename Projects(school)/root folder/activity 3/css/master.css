@@ -1,0 +1,39 @@
+
+    html{
+    background-color: #a6c7fc;
+    }
+    footer div.review{
+        background-color:white;
+        border-color: black;
+        width:10em;
+    }
+    img{
+        display: table-cell;
+        vertical-align: middle; 
+        width: 200px;
+        padding-left: 42%;
+        padding-top:3em;
+    }
+    header h1{
+        margin: 0;
+        background: yellow;
+        position: absolute;
+        left: 50%;
+        margin-right: -50%;
+        top: 2%;
+        transform: translate(-50%, -50%) 
+        
+    }
+    footer h3.reviewers_name{
+        border-width: 2px;
+        border-style:solid;
+        border-color: black;
+        
+        
+    }
+    footer div.reviewerPara{
+        background-color: blue;
+    }
+    body main p#product-description{
+        background-color: white;
+    }
