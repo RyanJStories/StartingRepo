@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="AllCSS/gameDesc.css">
+<html>
+  <head>
+    <title>Game Description</title>
+  </head>
+  <body>
+
+
+
+ <h1 class="Rule_Headers"> Rules</h1>
+<ul>
+    <li><h2 class="Rule_Headers">The Feild</h2></li>
+    <ol>
+      <li class="entery_for_rules">The  field consists of the three main slots- ATTACK, SPECIAL, and DEFENCE. 
+        There  are two other slots known as the FUSION SLOTS but are not in active play,
+         only a part of the field (meaning it cannot attack or defend,
+          nor can it be targeted for an attack.) </li>
+          
+       <li class="entery_for_rules">In the case  of the Fusion slot, any card can occupy it for as long as possible,
+                 since it cannot defend the player. That card wont fuse if it isnt able to,
+                  naturally.  </li>
+       
+      <li class="entery_for_rules">There are three piles: A discard pile, a drawing pile, and a graveyard. If cards from the drawing pile run out, the discard pile becomes the new drawing pile. The graveyard pile is left alone unless an attribute says to resurrect someone from the graveyard. </li>
+      <li class="entery_for_rules">If the card that is attacking has nothing standing in its way, its damage directly affects the opposing player. However, if there is one card in any slot when that card attacks, the enemy must sacrifice that card to take in the damage it would deal.
+    </li>
+    </ol>
+    <li><h2 class="Rule_Headers">How to Play</h2></li>
+    <ol>
+        <li class="entery_for_rules">At the start of the game each player gets 7 cards. Coin toss to see who goes first.
+             Each player gets 1 action every turn to start their move.
+              An Action consists of placing a card, fusing two cards, attacking with a card, or drawing a card.
+            You gain actions by discarding cards. One discard is equal to one action added. For instance, its my Move, and I start with 1 action. 
+            By discarding 2 cards I now have 3 actions. You can only discard 2 cards per move.
+            </li>
+        <li class="entery_for_rules">Players start with 1000 Life Points (Lp).</li>
+        <li class="entery_for_rules">If a card is destroyed, it is sent to the Graveyard. If it is voluntarily discarded, it is sent to the discard pile.</li>
+        <li class="entery_for_rules">If a card has an exit symbol on the top left of the card, it can fuse. Meaning, Their stats are combined. True fusions get a 200 stat bonus in each stat when fused.
+        </li>
+        <li class="entery_for_rules"> Attributes will usually tell you when they activate, but if it doesnt specify it can be activated at any time.
+        </li>
+        <li class="entery_for_rules">A player wins when the opposing player loses all of their Lp, or when the opposing player forfeits </li>
+        <li class="entery_for_rules"><h3>Enchantments</h3></li>
+        <ul>
+          <li>Enchantments are like spells, it takes two actions to draw an enchantment, and you can hold onto them like cards.  However, you cannot discard them to gain actions. The enchantments are not accounted for when dealing with attributes that affect stats. (IE; it doesnt multiply or divide with stats, and it can’t be taken away.) When the monster the enchantment is attached to dies, the enchantment returns to the Enchant pile and the pile is reshuffled        </li>
+        </ul>
+      </ol>
+
+    
+
+
+     <li id="Table_of_Attacking"><h2 class="Rule_Headers">Rules for Attacking</h2></li>
+      <table>
+          <thead>
+            <tr>
+              <th>Special</th>
+              <th>Attack</th>
+              <th>Defense</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Can damage the player if opposing Attack and Special slots are empty</td>
+              <td>Can damage the Player if opposing Attack and Defense slots are empty</td>
+              <td>Cannot destroy any other card</td>
+            </tr>
+            <tr>
+              <td>Can destroy the opposing Special slot if attack is lower than its special</td>
+              <td>Can destroy the Opposing Attack Slot if defense is lower than it's attack</td>
+              <td>Acts like a sheild from opposing attacks for your Attack slot</td>
+            </tr>
+            <tr>
+              <td>Can destroy the opposing Attack slot if attack is lower than its special</td>
+              <td>Can destroy the Opposing Defense Slot if defense is lower than it's special</td>
+              <td>Protects the player if Attack slot is empty </td>
+            </tr>
+          </tbody>
+        </table>
+</ul>
+<img src="images/Board.jpg" alt="Board Game Attack Order">
+</body>
+  <footer>
+    <nav>
+
+        <h2>Directory</h2>
+        <ul id="DirectoryLinkList">
+           <li>
+               <a href="shopHome.html">Shop</a>
+           </li>
+           
+           <li>
+               <a href="gameDesc.html">Description</a>
+           </li>
+   
+           <li>
+               <a href="cardDesc.html">Cards</a>
+           </li>
+   
+           <li>
+               <a href="index.html">Home</a>
+           </li>
+       </ul>
+      
+   </nav>
+  </footer>
+
+</html>

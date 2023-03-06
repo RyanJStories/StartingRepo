@@ -1,0 +1,102 @@
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(forestBackground.jpg);
+  }
+  body h1#top{
+    background-color: white;
+    padding-bottom:2em;
+  }
+ 
+  div p{
+    background-color: whitesmoke;
+    width:10em;
+    height:3em;
+    padding:1em;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+/* Styles the card display, putting it into a grid, putting space between them, just setting boundaries */
+  #card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 50px;
+  }
+  /* how the card display looks*/
+  .card {
+    background-color: #beafaf;
+ 
+  }
+  
+    /* actual card*/
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+    /* price*/
+  .card p {
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    text-align:center;
+    margin-left: 3em;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  /*Title of cards */
+    .card h2 {
+      font-size: 16px;
+      font-weight:bold;
+      text-align:center;
+    }
+ 
+  
+/* Styles the navigation */
+nav {
+    background-color: #333;
+    color: #eba626;
+    text-align: center;
+    padding: 1em;
+  }
+
+  #DirectoryLinkList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #DirectoryLinkList li {
+    display: inline-block;
+    margin: 0 10px;
+  } 
+ 
+ 
+ 
+ 
+ /* Styles the directory links */
+ #DirectoryLinkList a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    display:block;
+    width:3em;
+    padding: 1em;
+  }
+  #DirectoryLinkList a:hover{
+    color: #eba626;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }

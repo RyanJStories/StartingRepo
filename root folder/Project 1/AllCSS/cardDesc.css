@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(forestBackground.jpg);
+  }
+ 
+  
+.headers{
+    text-align: center;
+    background-color: white;
+  
+}li.headers{
+    text-align: center;
+    background-color: white;
+    width:10em;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+ul{
+    text-align:center;
+}
+
+dl#desc{
+    background-color:gray;
+    padding-left:3em;
+    padding-top:1em;
+    padding-bottom:2em;
+}
+
+/* Styles the navigation */
+nav {
+    background-color: #333;
+    color: #eba626;
+    text-align: center;
+    padding: 1em;
+  }
+
+  #DirectoryLinkList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #DirectoryLinkList li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+
+
+
+
+
+/* Styles the directory links */
+ #DirectoryLinkList a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    display:block;
+    width:3em;
+    padding: 1em;
+  }
+  #DirectoryLinkList a:hover{
+    color: #eba626;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
