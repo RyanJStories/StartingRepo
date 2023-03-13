@@ -1,0 +1,74 @@
+
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+
+  html {
+    background-color: lightcyan;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  img {
+    height: 10em;
+    width: 20em;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  header p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  header img {
+    width: 100%;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  .package {
+    max-width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: #272727;
+  }
+  
+  .package a {
+    color: rgb(8, 114, 207);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .package a:hover {
+    color: rgb(214, 180, 27);
+    background-color: black;
+  }
+  .package p{
+    color:aliceblue;
+  }
+  .package h2{
+    color: aliceblue;
+    padding-top: 1em;
+  }
