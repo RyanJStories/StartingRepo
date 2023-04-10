@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Ryan's Task Tracker</h1>
+    </header>
+    <div id="directions">
+
+    </div>
+
+    <div>
+        <label for="input-task">Write your tasks:</label>
+        <input type="text" id="input-task">
+        <button id="add-task">Add</button>
+        <button id="remove-task">Remove</button>
+    </div>
+
+    <div id="todo-list-container">
+        <h2>Active Tasks</h2>
+        <ol id="active-list"></ol>
+    </div>
+
+    <div id="completed-list-container">
+        <h2>Completed Tasks</h2>
+        <ul id="completed-list"></ul>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
