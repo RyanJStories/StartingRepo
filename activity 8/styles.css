@@ -1,0 +1,136 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #b63e3e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .header-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  #new-button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #256827;
+    color: white;
+    cursor: pointer;
+  }
+  #new-button:hover{
+    background-color: darkgoldenrod;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  #display-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .post {
+    width: 30%;
+    margin: 1%;
+    background-color: #238117;
+    padding: 1rem;
+  }
+  
+  .post-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .post-content {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  
+  footer {
+    background-color: #626dce;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+    padding: 1rem;
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+  }
+  
+  #modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(137, 197, 147);
+    z-index: 999;
+    display: none;
+  }
+  
+  .modal section {
+    margin-bottom: 1rem;
+  }
+  
+  .modal h2 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .modal input[type="text"],
+  .modal textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #cf76aa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  #edit-title-message,
+  #edit-content-message {
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  .modal footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .modal footer button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .modal footer #cancel-button {
+    background-color: #881111;
+    color: rgb(0, 0, 0);
+  }
+  
+  .modal footer #save-button {
+    background-color: #4CAF50;
+    color: white;
+  }
